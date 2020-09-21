@@ -1,0 +1,15 @@
+{
+  "verbose": true,
+  "delay": 2500,
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "dist"
+  ],
+  "watch": [
+    "server"
+  ],
+  "ext": "js,json",
+  "exec": "babel-node"
+}
