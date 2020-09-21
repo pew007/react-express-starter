@@ -6,7 +6,8 @@
     "watch-dev-client": "webpack-dev-server --config webpack/client.config.js --mode development",
     "watch-dev-server": "nodemon --config nodemon.json server/app.js",
     "watch": "npm-run-all --parallel watch-dev-client watch-dev-server",
-    "build-server": "webpack-cli --display-error-details --config webpack/server.config.js"
+    "build-server": "webpack-cli --display-error-details --config webpack/server.config.js --mode production",
+    "build-client": "webpack-cli --display-error-details --config webpack/client.config.js --mode production"
   },
   "keywords": [],
   "author": "",

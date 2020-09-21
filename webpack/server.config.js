@@ -3,7 +3,6 @@ const path = require('path');
 const appRootPath = path.resolve(__dirname, '..');
 
 module.exports = {
-    mode: 'production',
     entry: appRootPath + '/server/app.js',
     output: {
         path: appRootPath,
